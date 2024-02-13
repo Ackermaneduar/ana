@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.slide {
+    max-width: 100%;
+    max-height: 400px; /* Ajusta la altura máxima según tu preferencia */
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease;
+}
